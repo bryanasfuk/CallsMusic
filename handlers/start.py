@@ -9,21 +9,16 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 )
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>👋🏻 Halo, {message.from_user.first_name}!</b>
+        f"""<b>👋🏻 Halo Ganteng, {message.from_user.first_name}!</b>
 Saya adalah bot music voice call group!
-
-Dirancang khusus untuk menemanimu bergalau ria, berdendang, hingga berdangdut di voice call group.
-Bot ini sering patah patah dikit kalau di vcg, jadi gausa protes.
-
-Cara pakai bot ini ya tinggal masukin aja ke grupmu, jangan lupa masukin userbot asistennya juga.
-Tapi izin dulu lah ajg ke owner bot ini biar berkah sekalian diajarin cara pakenya :))
-
-Berikut dibawah ini adalah cara pakainya.""",
+Mari kita ramaikan hasanah permusikan duniawi telegram. 
+Cara pake nya tinggal add bot ini ke gc mu jangan lupa chat dulu @fckyouasshole hehehe
+Klik tombol di bawah ini.""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "CARA MENGGUNAKANNYA", url="https://telegra.ph/Cara-menggunakan-Bot-Music-03-12"
+                        "Cara Pakai", url="https://telegra.ph/Cara-menggunakan-Bot-Music-03-12"
                     )
                 ]
             ]
@@ -38,7 +33,7 @@ Berikut dibawah ini adalah cara pakainya.""",
 )
 async def start(client: Client, message: Message):
     await message.reply_text(
-        "Hai, mau nyari lagu ya?",
+        "Buat nyari lagu ini bukan buat nyari bokep",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
