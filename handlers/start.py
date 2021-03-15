@@ -19,6 +19,9 @@ Klik tombol di bawah ini.""",
                 [
                     InlineKeyboardButton(
                         "Cara Pakai", url="https://telegra.ph/Cara-menggunakan-Bot-Music-03-12"
+                    ),
+                    InlineKeyboardButton(
+                        "Kali aja minat",url="https://t.me/fckyouasshole"
                     )
                 ]
             ]
